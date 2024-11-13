@@ -6,18 +6,35 @@
     <link href="./output.css" rel="stylesheet" />
     <link
       rel="shortcut icon"
-      href="../img/exito_logo.svg.png"
+      href="../public/exito_logo.svg.png"
       type="image/x-icon"
     />
     <title>Almacenes Éxito</title>
   </head>
   <body>
-    <header class="flex flex-row bg-black">
-      <div class="w-20 h-20">
-        <img src="../img/exito_logo.svg.png" />
+    <header
+      class="flex flex-row justify-evenly items-center py-2 bg-black hover:bg-red-300 transition duration-1000 ease-in-out"
+    >
+      <div class="w-56 h-20 flex flex-row items-center justify-around">
+        <img src="../public/exito_logo.svg.png" class="w-20 h-20" />
+        <h1 class="text-white">Grupo Éxito</h1>
       </div>
+      <nav class="">
+        <a href="https://www.exito.com/" class="text-white px-4">Éxito.com</a>
+        <a href="#" class="text-white px-4">Formulario</a>
+      </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="w-[36rem] mt-8 m-auto">
+        <video
+          src="../public/video_exito.mp4"
+          muted
+          loop
+          autoplay
+          class="rounded-md w-full hover:scale-125 transition ease-in-out duration-200"
+        ></video>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
